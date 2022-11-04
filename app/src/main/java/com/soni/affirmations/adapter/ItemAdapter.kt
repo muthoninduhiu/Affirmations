@@ -23,7 +23,8 @@ class ItemAdapter(val context: Context, private val dataset: List<AffirmationsMo
     }
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        val item = dataset[position]
+        holder.textView.text = context.resources.getString(item.stringResource)
     }
 
     override fun getItemCount(): Int = dataset.size
