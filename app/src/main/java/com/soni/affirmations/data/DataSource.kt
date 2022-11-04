@@ -15,7 +15,17 @@ class DataSource {
             AffirmationsModel(R.string.affirmation7),
             AffirmationsModel(R.string.affirmation8),
             AffirmationsModel(R.string.affirmation9),
-            AffirmationsModel(R.string.affirmation10)
+            AffirmationsModel(R.string.affirmation10),
+            AffirmationsModel(R.string.affirmation11),
+            AffirmationsModel(R.string.affirmation12),
+            AffirmationsModel(R.string.affirmation13),
+            AffirmationsModel(R.string.affirmation14),
+            AffirmationsModel(R.string.affirmation15),
+            AffirmationsModel(R.string.affirmation16),
+            AffirmationsModel(R.string.affirmation17),
+            AffirmationsModel(R.string.affirmation18),
+            AffirmationsModel(R.string.affirmation19),
+            AffirmationsModel(R.string.affirmation20)
         )
     }
 }
