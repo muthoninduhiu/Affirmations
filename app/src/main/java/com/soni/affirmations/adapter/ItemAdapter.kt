@@ -18,7 +18,7 @@ class ItemAdapter(val context: Context, private val dataset: List<AffirmationsMo
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item,parent)
+            .inflate(R.layout.list_item,parent,false)
         return ItemViewHolder(adapterLayout)
     }
 
