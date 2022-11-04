@@ -23,7 +23,5 @@ class ItemAdapter(val context: Context, private val dataset: List<AffirmationsMo
         TODO("Not yet implemented")
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
+    override fun getItemCount(): Int = dataset.size
 }
