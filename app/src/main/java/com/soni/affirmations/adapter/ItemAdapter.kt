@@ -1,4 +1,6 @@
 package com.soni.affirmations.adapter
 
-class ItemAdapter {
+import com.soni.affirmations.model.AffirmationsModel
+
+class ItemAdapter(private val dataset: List<AffirmationsModel>) {
 }
